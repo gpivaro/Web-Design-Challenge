@@ -1,0 +1,22 @@
+h1{
+    margin-bottom: 75px;
+    font-size: 60px;
+    color: darkcyan;
+    background-color: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+p{
+    font-size: 27px;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+}
+
+
+#City_Latitude_Max_Temperature{
+    float:left;
+}
