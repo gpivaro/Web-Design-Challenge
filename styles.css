@@ -2,18 +2,49 @@ body{
 	background-color: lightgray;
 }
 
-
 .container{
-    margin-top: 35px;
-    margin-bottom: 35px;
-    /* padding-left: 555px; */
-    /* margin: 55px; */
+    border-style: solid;
+    border-color: blue;
+    /* padding: 1%; */
+    margin-top: 45px;
+    /* margin-right: 5%; */
 }
+
+.row {
+    /* border-style: solid; */
+    /* border-color:purple; */
+    /* background-color: white; */
+    /* padding: 5px; */
+    /* margin: 10px; */
+}
+
+/* .col{
+    border-style: solid;
+    border-color: green;
+} */
+
+
+.col-lg-8 {
+    border-style: solid;
+    border-color:yellow;
+    background-color: whitesmoke;
+}
+
+.col-lg-4 {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: pink;
+    /* margin-left: 2%; */
+}
+
+
 
 article{
 	background-color: white;
     margin-top: 15px;
     padding-right: 30px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 h1{
@@ -21,12 +52,14 @@ h1{
     font-weight: bold;
     margin-left: 35px;
     margin-bottom: 25px;
-    padding-top: 35px;
+    padding: 15px;
     font-size: 40px;
     color: darkcyan;
     background-color: none;
     text-align: left;
     text-decoration: none;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 h2{
@@ -40,10 +73,16 @@ h2{
     background-color: none;
     text-align: left;
     text-decoration: none;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 hr {
-    width: 90%;margin-left: auto;margin-right: auto;
+    width: 95%;
+    margin-left: 5%;
+    margin-right: auto;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 p{
@@ -51,14 +90,31 @@ p{
     font-size: 16px;
     text-align: justify;
     color: gray;
-    padding: 1px;
-    margin-top: 35px;
-    margin-left: 25px;
-    margin-right: 1px;
-    margin-bottom: 5px;
-    padding-bottom: 15px;
-    padding-right: 1px;
+    /* padding: 1px; */
+    /* margin-top: 35px; */
+    margin-left: 31px;
+    /* margin-right: 1px; */
+    /* margin-bottom: 5px; */
+    /* padding-bottom: 15px; */
+    /* padding-right: 1px; */
+    /* border-style: solid; */
+    /* border-color:black; */
 }
+
+
+
+#City_Latitude_Max_Temperature{
+    margin-left: 31px;
+    padding: 0px;
+    float:left;
+    width: 225px;
+    height: 235px;
+    /* border-style: solid; */
+    /* border-color: turquoise; */
+
+}
+
+
 
 img{
     /* height: 100px; */
@@ -68,15 +124,15 @@ img{
     /* margin-left: 5px; */
     /* margin-right: 35px; */
     /* padding: 5px; */
+    /* border-style: solid; */
+    /* border-color: tomato; */
+    padding: 4%;
+
+
 }
 
 
-#City_Latitude_Max_Temperature{
-    margin-left: 25px;
-    float:left;
-    width: 225px;
-	height: 235px;
-}
+
 
 /* .col{
 	background-color: red;
@@ -88,6 +144,8 @@ img{
     /* float: left; */
     width: 50%;
     padding: 1px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
   }
   
   /* Clear floats after image containers */
@@ -95,6 +153,8 @@ img{
     content: "";
     clear: both;
     display: table;
+    /* border-style: solid; */
+    /* border-color: tomato; */
   }
 
 .column{
@@ -102,6 +162,8 @@ img{
     padding-right: 50px;
     /* margin-left: 1px; */
     /* margin-right: 1px; */
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 .navbar-brand{
@@ -113,25 +175,29 @@ img{
     padding: 10px;
     /* margin: 10px; */
     border: 10px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
+    
 }
 
 .navbar-light .navbar-brand {
     color: white;
     margin-left: 11px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 .navbar-light{
     padding: 0px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: gray;
     margin-right: 25px;
+    /* border-style: solid; */
+    /* border-color: tomato; */
 }
 
-.row {
-    background-color: white;
-    padding: 0px;
-    margin: 10px;
-}
