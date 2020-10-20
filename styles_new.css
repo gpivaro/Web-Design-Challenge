@@ -13,7 +13,7 @@ body{
 article{
 	background-color: white;
     margin-top: 15px;
-    padding-right: 60px;
+    padding-right: 30px;
 }
 
 h1{
@@ -49,14 +49,15 @@ hr {
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    text-align: justify;
     color: gray;
     padding: 1px;
     margin-top: 35px;
     margin-left: 25px;
-    margin-right: 15px;
+    margin-right: 1px;
     margin-bottom: 5px;
     padding-bottom: 15px;
-    padding-right: 5px;
+    padding-right: 1px;
 }
 
 img{
@@ -84,9 +85,9 @@ img{
 
 /* Two image containers (use 25% for four, and 50% for two, etc) */
 .column {
-    float: left;
+    /* float: left; */
     width: 50%;
-    padding: 5px;
+    padding: 1px;
   }
   
   /* Clear floats after image containers */
@@ -98,5 +99,26 @@ img{
 
 .column{
     padding-left: 30px;
-    /* padding-right: 50px; */
+    padding-right: 50px;
+    /* margin-left: 1px; */
+    /* margin-right: 1px; */
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    /* color: white; */
+    background-color: darkcyan;
+    padding: 10px;
+    /* margin: 10px; */
+    border: 10px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light{
+    padding: 0px;
 }
