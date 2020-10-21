@@ -112,7 +112,7 @@ h4{
     /* font-size: 32px; */
     color: darkcyan;
     background-color: none;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
 }
 
@@ -324,7 +324,7 @@ nav{
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). 
 Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 992px) {
-    .navbar a:not(:first-child) {display: none;}
+    /* .navbar a:not(:first-child) {display: none;} */
     .navbar a.icon {
       float: right;
       display: block;
