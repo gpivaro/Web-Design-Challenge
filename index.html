@@ -29,7 +29,7 @@
 
 <body>
 	<!-- Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<a class="navbar-brand" href="index.html">Latitude</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,6 +116,21 @@
 		</div>
 	</div>
 	<!-- Main -->
+
+
+	<!-- JavaScript for creating a Responsive Topnav -->
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+
 </body>
 
 </html>
