@@ -18,6 +18,13 @@ body{
     /* margin-right: 5%; */
 }
 
+
+.comparison-container{
+    background-color: white;
+    /* border: 1px solid brown; */
+    margin-top: 40px;
+}
+
 /* ############################# Bootstrap Row ############################# */
 /* ######################################################################### */
 
@@ -106,9 +113,9 @@ h2{
 h4{
 	font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-left: 165px;
+    margin-left: 150px;
     margin-right: 165px;
-    /* margin-bottom: 25px; */
+    margin-top: 25px;
     /* padding-top: 35px; */
     /* font-size: 32px; */
     color: darkcyan;
@@ -246,14 +253,11 @@ img{
 .data-table{
 	background-color: white;
 	padding: 5%;
-	/* border: 1px solid; */
+	border: 1px solid;
 	margin-top: 1.5%;
 }
 
 
-.comparison-container{
-    background-color: white;
-}
 
 .col-example{
     /* text-align: justify; */
