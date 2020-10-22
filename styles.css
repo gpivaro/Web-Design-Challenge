@@ -106,14 +106,16 @@ h2{
 h4{
 	font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-left: 125px;
+    margin-left: 165px;
+    margin-right: 165px;
     /* margin-bottom: 25px; */
     /* padding-top: 35px; */
     /* font-size: 32px; */
     color: darkcyan;
     background-color: none;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
+    /* border: 1px solid tomato; */
 }
 
 
