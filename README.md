@@ -2,6 +2,9 @@
 
 ## Background
 
+This repo can be accessed on this [link](https://gpivaro.github.io/Web-Design-Challenge/)
+
+
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
 
 ![Images/landingResize.png](Images/landingResize.png)
