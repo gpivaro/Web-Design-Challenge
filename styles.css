@@ -170,7 +170,8 @@ img{
 .img-fluid{
 	/* border: 1px solid; */
 	width: 90%;
-	margin-left: 7%;
+    margin-left: 5%;
+    align-items: center;
 }
 
 
